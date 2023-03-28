@@ -1,1 +1,1 @@
-Atividade Programação Front-end, Site de Turismo.
+Atividade para Programação Front-end, Site de Turismo.
