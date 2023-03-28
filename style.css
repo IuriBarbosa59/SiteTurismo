@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/imagens/alpes.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Header-content{
+    margin-bottom: 80px;
+    color: rgb(48, 92, 105);
+    text-align: center;
+}
+
+.Header-content h2{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.Line{
+    width: 250px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.Header-content h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.NavBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(82, 7, 69);
+    font-size: 20px;
+    cursor: default;
+    
+}
+
+.NavLinks{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.NavLinks li{
+    margin: 0 30px;
+}
+
+
+section {
+    width: 100%;
+    margin: 80px auto;
+}
+.Title{
+    text-align: center;
+    font-size: 60px;
+    color: blueviolet;
+}
+
+.ro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.ro .co{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    width: 80%;
+ }
+ .p1{
+    font-size: 20px;
+    width: 50%;
+    color: rgb(57, 45, 68);
+ }
+
+ .Events .ro{
+    margin-top: 50px;
+   
+ }
+
+ h4{
+    font-size: 30px;
+    margin: 20px auto;
+    color: blueviolet;
+ }
+
+ .Events .ctn{
+    margin-top: 50px;
+ }
+
+ .Explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/imagens/explore.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+ }
+
+ .Explore-cont{
+    width: 50%;
+    padding: 100px;
+    color:  rgb(238, 201, 176);
+ }
+
+ .Explore-cont h1{
+    font-size: 40px;
+    
+ }
+
+ .Explore-cont p{
+    color: rgb(248, 194, 156);
+    font-size: 16px;
+    margin-bottom: 20px;
+ }
+
+ .Opt .Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+ }
+ .Gallery .img2{
+    width:  40%;
+    height: 20%;
+    margin: 10px;
+    
+ }
+
+ .Opt .ro .coImg{
+    width: 80%;
+    height: 80%;  
+ }
+
+.coTxt{
+    width: 60%;
+    text-align: center;
+}
+.pTxt{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+  
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0%;
+    background-color: rgb(185, 245, 225);
+    text-align: center;
+}
+.footer p{
+    color: rgb(1, 69, 100);
+    margin: 20px auto;
+}
+.Contato{
+    width: 100%;
+    height: 500px;
+    background-image: url(/imagens/montanha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+
+.Contato{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.Msg{
+    padding: 10px;    
+    position: relative;
+    width: 310px;
+    margin:  30px 0;
+    border-bottom: 2px solid rgb(108, 186, 238);
+}
+.inputs{
+    width: 400px;
+    height: 450px;
+}
+
+.Msg label{
+    position: absolute;
+    top:10%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 17px;
+    color: rgb(1, 31, 31);
+}
+
+.Msg input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    color: rgb(3, 1, 24);
+    
+}
+
+.inputs .Btn{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: aqua;
+    transform: translateX(130px);
+
+}
